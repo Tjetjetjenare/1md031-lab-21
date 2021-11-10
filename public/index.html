@@ -1,1 +1,109 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Take me to the burger shop</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+     <main>
+       <header>
+         <h1>Welcome to Glorious Borger</h1>
+       </header>
+       <section>
+         <h2>Please select your burger</h2>
+            <p>This is where you select the burger you want to order</p>
+              <div style="float:left">
+                <h4>Dante's Inferno</h4>
+                  <section>
+                    <img src="https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-4.jpg" alt="spicyness1" style="width: 100px">
+                  </section>
+                  <img src="https://thumbs.dreamstime.com/b/spicy-burger-marinated-onions-chilli-wooden-board-dark-background-spicy-burger-marinated-onions-chilli-225658874.jpg" alt="spicy burger" style="width: 300px">
+                  <ul>
+                    <li>1 200kcal</li>
+                    <li>Lactose</li>
+                    <li>Gluten</li>
+                  </ul>
+              </div>
+              <div style="float:left">
+                <h4>Crispy Chicken Star Struck</h4>
+                  <section>
+                    <img src="https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-1.jpg" alt="spicyness2" style="width: 100px">
+                  </section>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3H6EHrJuBqHMBCcVRb-3YiGbq0BWgAx5JQA&usqp=CAU" alt="chicken burger" style="height: 200px">
+                  <ul>
+                    <li>800kcal</li>
+                    <li>Lactose</li>
+                  </ul>
+              </div>
+              <div style="float:left">
+                <h4>Halloumi Maximus</h4>
+                <section>
+                  <img src="https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-2.jpg" alt="spicyness3" style="width: 99px">
+                </section>
+                <img src="https://www.kitchensanctuary.com/wp-content/uploads/2015/11/Halloumi-Burger-with-Sticky-Chilli-Glaze-square-FS-50.jpg" alt="halloumi burger" style="height: 200px">
+                <ul>
+                  <li>1 000kcal</li>
+                  <li>Vegan</li>
+                </ul>
+              </div>
+       </section>
+       <section style="clear:left">
+         <h2>Customer information</h2>
+            <p>This is where you provide the information necessarry for your delivery</p>
+         <h3>Delivery information:</h3>
+         <p>
+           <label for="Full name">Full name</label><br>
+           <input type="text" id="full name" name="fn" required="required" placeholder="First- and last name">
+         </p>
+         <p>
+           <label for="E-mail">E-mail</label><br>
+           <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+         </p>
+         <p>
+           <label for="Street name">Street</label><br>
+           <input type="text" id="Street name" name="sn" required="required" placeholder="Street name">
+         </p>
+         <p>
+           <label for="House number">House</label><br>
+           <input type="number" id="House number" name="hn" required="required" placeholder="House number">
+         </p>
+         <p>
+           <label for="recipient">Choose method of payment</label><br>
+           <select id="recipient" name="rcp">
+               <option>Crypto currency</option>
+               <option>Credit card</option>
+               <option>Swish</option>
+               <option>Klarna</option>
+               <option>Cash* **</option>
+           </select><br>
+           *Cash can be payed to the delivery person <br>
+           **For their safety, they will not carry change
+         </p>
+         <p>
+           Gender <br>
+           <input type="radio" name="Gender" value="Male">
+           <label for="Gender">Male</label><br>
+
+           <input type="radio" name="Gender" value="Female">
+           <label for="Gender">Female</label><br>
+
+           <input type="radio" name="Gender" value="Non-binary">
+           <label for="Gender">Non-binary</label><br>
+
+           <input type="radio" name="Gender" value="Undisclosed" checked="checked">
+           <label for="Gender">Undisclosed</label>
+         </p>
+       </section>
+       <section>
+         <button type="submit">
+           <img src="https://ak.picdn.net/shutterstock/videos/1034554799/thumb/9.jpg" style="width:25px">
+           Bring me my food
+         </button>
+       </section>
+     </main>
+     <hr>
+     <footer>
+       &copy; Tjetjetjenare inc.
+     </footer>
+   </body>
+</html>

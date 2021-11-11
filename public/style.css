@@ -1,1 +1,42 @@
-/*empty*/
+/*Så här kommenterar man i en css-fil*/
+
+@import 'https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap';
+
+																																			 /*Body*/
+body {
+	font-family: 'Shadows Into Light', cursive;
+     }
+
+																																		 /*Färger*/
+.dored {
+	color: #ff0000;
+}
+
+.dogreen {
+	color: #00ff00
+}
+
+.doblue {
+	color: #0000ff
+}
+
+.dowhite {
+	color: #ffffff
+}
+
+.doblack {
+	background-color: #000000
+}
+
+																																	/*Texttyper*/
+#boldie {
+	font-weight: bold;
+}
+
+#picblock img{
+	display: block
+}
+
+#picblock div{
+	display: inline-block
+}

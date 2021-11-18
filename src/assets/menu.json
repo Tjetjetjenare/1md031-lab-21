@@ -1,26 +1,26 @@
 [{
-  "name": "Dantes Inferno",
-  "kcal": 1200,
+  "name": "Dante's Inferno",
+  "kcal": "1 200",
   "lactose": true,
   "gluten": true,
   "other": false,
-  "img1": "https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-4.jpg",
-  "img2": "https://thumbs.dreamstime.com/b/spicy-burger-marinated-onions-chilli-wooden-board-dark-background-spicy-burger-marinated-onions-chilli-225658874.jpg"
+  "url1": "https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-4.jpg",
+  "url2": "https://thumbs.dreamstime.com/b/spicy-burger-marinated-onions-chilli-wooden-board-dark-background-spicy-burger-marinated-onions-chilli-225658874.jpg"
 }, {
   "name": "Crispy Chicken Star Struck",
-  "kcal": 800,
+  "kcal": "800",
   "lactose": true,
   "gluten": false,
   "other": false,
-  "img1": "https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-1.jpg",
-  "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3H6EHrJuBqHMBCcVRb-3YiGbq0BWgAx5JQA&usqp=CAU"
+  "url1": "https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-1.jpg",
+  "url2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3H6EHrJuBqHMBCcVRb-3YiGbq0BWgAx5JQA&usqp=CAU"
 }, {
   "name": "Halloumi Maximus",
-  "kcal": 1000,
+  "kcal": "1 000",
   "lactose": false,
   "gluten": false,
   "other": true,
-  "img1": "https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-2.jpg",
-  "img2": "https://www.kitchensanctuary.com/wp-content/uploads/2015/11/Halloumi-Burger-with-Sticky-Chilli-Glaze-square-FS-50.jpg"
+  "url1": "https://cdn11.bigcommerce.com/s-cg0adf/product_images/uploaded_images/cotw-brand-heatguide-2.jpg",
+  "url2": "https://www.kitchensanctuary.com/wp-content/uploads/2015/11/Halloumi-Burger-with-Sticky-Chilli-Glaze-square-FS-50.jpg"
 }
 ]

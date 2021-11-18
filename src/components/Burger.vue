@@ -9,6 +9,9 @@
       <li v-if="burger.gluten">Contains <span class="boldie">gluten</span></li>
       <li v-if="burger.other" class="dogreen">Vegan</li>
     </ul>
+    <button type="button" v-on:click="subFromOrder">v</button>
+    {{amountOrdered}}
+    <button type="button" v-on:click="addToOrder">^</button>
   </div>
 </template>
 
@@ -17,8 +20,40 @@ export default {
   name: 'Burger',
   props: {
     burger: Object
+  },
+  data:function(){
+    return {
+      amountOrdered: 0,
+      orderedBurgers: {}
+    }
+  },
+  methods: {
+    subFromOrder: function () {
+      if(this.amountOrdered>0){
+        this.amountOrdered -=1,
+        this.$emit("orderedBurger",
+        {
+          name:this.burger.name,
+          amount: this.amountOrdered
+        }
+        );
+      }
+      else {
+        this.amountOrdered =0;
+      }
+    },
+    addToOrder: function () {
+      this.amountOrdered +=1,
+      this.$emit("orderedBurger",
+      {
+        name: this.burger.name,
+        amount: this.amountOrdered
+      }
+      );
+    }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

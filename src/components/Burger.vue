@@ -23,14 +23,13 @@ export default {
   },
   data:function(){
     return {
-      amountOrdered: 0,
-      orderedBurgers: {}
+      amountOrdered: 0
     }
   },
   methods: {
     subFromOrder: function () {
       if(this.amountOrdered>0){
-        this.amountOrdered -=1,
+        this.amountOrdered --,
         this.$emit("orderedBurger",
         {
           name:this.burger.name,
@@ -43,7 +42,7 @@ export default {
       }
     },
     addToOrder: function () {
-      this.amountOrdered +=1,
+      this.amountOrdered ++,
       this.$emit("orderedBurger",
       {
         name: this.burger.name,

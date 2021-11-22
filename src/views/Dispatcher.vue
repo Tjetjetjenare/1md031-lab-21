@@ -1,15 +1,18 @@
 <template>
   <div id="orders">
     <div id="orderList">
-      <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-        #{{ key }}: {{ order.orderItems.join(", ") }}
+      <div v-for="(order, key) in orders" v-bind:key="'order' + key">
+        #{{key}}: {{order.orderItems}}
+        <div class="orderFont">
+          {{order.personalInformation.name + ' - ' + order.personalInformation.email + ', ' + order.personalInformation.gender + ', ' + order.personalInformation.payment}}
+        </div>
       </div>
       <button v-on:click="clearQueue">Clear Queue</button>
     </div>
     <div id="dots">
-        <div v-for="(order, key) in orders" v-bind:style="{ left: order.details.x + 'px', top: order.details.y + 'px'}" v-bind:key="'dots' + key">
-          {{ key }}
-        </div>
+      <div v-for="(order, key) in orders" v-bind:style="{left: order.details.x + 'px', top: order.details.y + 'px'}" v-bind:key="'dots' + key">
+        {{key}}
+      </div>
     </div>
   </div>
 </template>
@@ -64,5 +67,9 @@ export default {
   width:20px;
   height:20px;
   text-align: center;
+}
+
+.orderFont {
+  font-style: oblique;
 }
 </style>
